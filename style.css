@@ -1,0 +1,16 @@
+body {
+  background: #333;
+  color: white;
+  font-family: 'Verdana';
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#welcome-message {
+  background: #75D2AF;
+  border-radius: 50px;
+  filter: drop-shadow(0px 0px 5px #75D2AF);
+  font-size: 200%;
+  padding: 10px;
+  text-align: center;
+}
