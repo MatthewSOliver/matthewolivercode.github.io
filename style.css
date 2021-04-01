@@ -1,7 +1,8 @@
 body {
+  text-align: center;
   background: #333;
   color: white;
-  font-family: 'Verdana';
+  font-family: 'Courier';
   margin: 0 auto;
   padding: 20px;
 }
@@ -9,8 +10,13 @@ body {
 #welcome-message {
   background: #75D2AF;
   border-radius: 50px;
+  display: inline-block; /* makes width fit to contents */
   filter: drop-shadow(0px 0px 5px #75D2AF);
-  font-size: 200%;
+  font-weight: bold;
   padding: 10px;
   text-align: center;
+  transition: all 0.8s ease-in-out; /* smooth animation on & off hovering */
+}
+#welcome-message:hover {
+  transform: scale(1.1);
 }
